@@ -1,0 +1,8 @@
+.blue-background {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+.table-header {
+  font-weight: bold;
+}
