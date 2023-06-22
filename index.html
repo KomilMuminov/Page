@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KM</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12 blue-background">
+
+	<form>
+
+    <h2>Основная информация</h2>
+
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6">
+    <label for="company">Компания:</label>
+    <select id="company" class="form-control">
+    <option></option>
+    <option value="company1">Компания 1</option>
+    <option value="company2">Компания 2</option>
+    
+</select>
+
+    
+            <label for="industry" >Отрасль:</label>
+            <select id="industry" class="form-control">
+				<option></option>
+                <option value="industry1">Отрасль 1</option>
+                <option value="industry2">Отрасль 2</option>
+            </select>
+
+            <label for="ownership-type">Тип собственности:</label>
+            <select id="ownership-type" class="form-control">
+				<option></option>
+                <option value="type1">Тип 1</option>
+                <option value="type2">Тип 2</option>
+            </select>
+
+            <label for="inn">ИНН:</label>
+            <input type="number" id="inn" class="form-control" placeholder="Введите ИНН" required>
+
+            <label for="phone-number">Номер телефона:</label>
+            <input type="number" id="phone-number" class="form-control" placeholder="Введите номер" required>
+
+            <label for="accountant">Бухгалтер:</label>
+            <input type="text" id="accountant" class="form-control" placeholder="Введите ФИО" required>
+            <br>
+
+        </div>
+        <div class="col-md-6">
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" class="form-control" required>
+
+            <label for="management">Управление:</label>
+            <select id="management" class="form-control">
+                <option></option>
+            <option value="management1">Управление 1</option>
+            <option value="management2">Управление 2</option>
+        </select>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-md-12 blue-background">
+        <h2>Детали отчета</h2>
+    </div>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-md-6">
+        <label for="date">Дата:</label>
+        <input type="date" id="date" class="form-control" required>
+
+        <label for="deadline">Срок:</label>
+        <input type="date" id="deadline" class="form-control" required>
+    </div>
+    <div class="col-md-6">
+        <label for="type">Тип:</label>
+        <select id="type" class="form-control" required>
+			<option></option>
+            <option value="type2">Тип 2</option>
+            <option value="type3">Тип 3</option>
+        </select>
+
+        <label for="currency">Валюта:</label>
+        <select id="currency" class="form-control" required>
+			<option></option>
+            <option value="currency1">Валюта 1</option>
+            <option value="currency2">Валюта 2</option>
+        </select>
+    </div>
+</div>
+<hr>
+
+<button class="btn btn-success">Отправить</button>
+</form>
+</div>
+    <br>
+<div class="row mt-3">
+    <div class="col-md-12 blue-background">
+        <h2>Таблица</h2>
+    </div>
+</div>
+<table class="table">
+<thead>
+<tr>
+<th scope="col"> </th>
+<th scope="col">Код строки</th>
+<th scope="col">На начало отчетного периода</th>
+<th scope="col">На конец отчетного периода</th>
+</tr>
+</thead>
+
+			<tbody>
+				<th scope="row" class="text-center">Показатели</th>
+			  <tr>
+				<th scope="row" class="text-center">Активы</th>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			  </tr>
+			  <tr>
+				<th scope="row" class="text-center">I.A ОБОРОТНЫЕ АКТИВЫ</th>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			  </tr>
+			</tbody>
+        </table>
+</div>
+</body>
+</html>
